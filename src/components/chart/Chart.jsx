@@ -3,12 +3,13 @@ import {
   LineChart,
   Line,
   XAxis,
-  CartesianGrid,
-  Tooltip,
   ResponsiveContainer,
+  Tooltip,
+  CartesianGrid,
 } from "recharts";
 
 export default function Chart({ title, data, dataKey, grid }) {
+  console.log(data);
   return (
     <div className="chart">
       <h3 className="chartTitle">{title}</h3>
