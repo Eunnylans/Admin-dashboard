@@ -8,11 +8,12 @@ import {
   CartesianGrid,
 } from "recharts";
 
-export default function Chart({ title, data, dataKey, grid }) {
-  console.log(data);
+export default function Chart({ data, dataKey, grid }) {
   return (
     <div className="chart">
-      <h3 className="chartTitle">{title}</h3>
+      <div className="chartTitle">
+        <h3>User Analytics</h3>
+      </div>
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
           <XAxis dataKey="name" stroke="#5550bd" />

@@ -1,4 +1,4 @@
-export const userData = [
+export const UserData = [
   {
     name: "Jan",
     "Active User": 4000,
@@ -178,12 +178,11 @@ export const productRows = [
 
   {
     id: 3,
-    name: "Phone",
-    Image:
-      "https://mobile.1und1.de/_catalog/images/d29291fbade6d9ef5f27571c96fee675-galaxy-s22plus-pink-gold-front~235x470.png",
+    name: "Apple Airpods",
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxJWOxvNlld0Ea88OUG0c2xnOc50QMy3ulFZxYVQdVSoSlBpWJcfd-5-IZABkNkDJcXBMa0KA8&usqp=CAc",
     stock: 125,
     status: "active",
-    price: "$700.00",
+    price: "$120.00",
   },
 
   {
@@ -197,12 +196,11 @@ export const productRows = [
 
   {
     id: 5,
-    name: "Samsung",
-    image:
-      "https://mobile.1und1.de/_catalog/images/d29291fbade6d9ef5f27571c96fee675-galaxy-s22plus-pink-gold-front~235x470.png",
-    stock: 127,
+    name: "Apple Airpods",
+    img: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxJWOxvNlld0Ea88OUG0c2xnOc50QMy3ulFZxYVQdVSoSlBpWJcfd-5-IZABkNkDJcXBMa0KA8&usqp=CAc",
+    stock: 143,
     status: "active",
-    price: "$450.00",
+    price: "$120.00",
   },
 
   {

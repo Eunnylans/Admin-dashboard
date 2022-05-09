@@ -28,4 +28,5 @@
 .productListDelete {
     color: red;
     cursor: pointer;
+    margin-left: 30px;
 }

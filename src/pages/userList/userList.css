@@ -1,5 +1,6 @@
 .userList {
   flex: 4;
+  width: 900px;
 }
 
 .userListUser {
@@ -28,4 +29,5 @@
 .userListDelete {
   color: red;
   cursor: pointer;
+  margin-left: 30px;
 }
