@@ -16,10 +16,10 @@ export default function VerticalSlider({ onValueSet }) {
     setValue(newValue);
     onValueSet(newValue);
   };
-     console.log(value)
+  console.log(value);
   return (
     <div className="slider">
-      <Box sx={{ height: 255 }}>
+      <Box sx={{ height: 265 }}>
         <Slider
           sx={{
             '& input[type="range"]': {
