@@ -6,7 +6,7 @@ import WidgetSm from "../../components/widgetSm/WidgetSm";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
 import React, { useState } from "react";
 import VerticalSlider from "../../components/slider/VerticalSlider";
-import Progressbar from "../../components/progressbar/Progressbar";
+import ProgressBar from "../../components/progressBar/ProgressBar";
 
 export default function Home(props) {
   const [sliderValue, setSliderValue] = useState(1);
@@ -16,7 +16,7 @@ export default function Home(props) {
   };
 
   const calculateNewMonth = (month) => {
-    const activeUserValue = sliderValue * month["Active User"];
+    const activeUserValue = sliderValue * month["Active User"] * Math.random();
     const newMonthValue = { ...month, "Active User": activeUserValue };
     return newMonthValue;
   };
@@ -25,7 +25,7 @@ export default function Home(props) {
 
   return (
     <div className="home">
-      <FeaturedInfo />
+      <FeaturedInfo sliderValueDis={sliderValue} />
       <div className="chartContainer">
         <VerticalSlider onValueSet={getSliderValue} className="chartSlider" />
         <Chart
@@ -34,7 +34,10 @@ export default function Home(props) {
           grid
           dataKey="Active User"
         />
-        <Progressbar />
+        <ProgressBar
+          sliderValueDis={sliderValue}
+          className="chartProgressBar"
+        />
       </div>
       <div className="homeWidgets">
         <WidgetSm />

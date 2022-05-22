@@ -19,7 +19,7 @@ export default function VerticalSlider({ onValueSet }) {
   console.log(value);
   return (
     <div className="slider">
-      <Box sx={{ height: 265 }}>
+      <Box sx={{ height: 250 }}>
         <Slider
           sx={{
             '& input[type="range"]': {
