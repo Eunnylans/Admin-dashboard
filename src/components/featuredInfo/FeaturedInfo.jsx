@@ -17,7 +17,7 @@ export default function FeaturedInfo({ sliderValueDis }) {
         </div>
         <span className="featuredSub">Compared to last month</span>
       </div>
-      <div className={`featuredItem ${sliderValueDis > 60 && "greyBG"}`}>
+      <div className={`featuredItem ${sliderValueDis > 60 && "whiteBG"}`}>
         <span className="featuredTitle">Sales</span>
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">

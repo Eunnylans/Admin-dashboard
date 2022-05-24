@@ -21,6 +21,10 @@
   background-color: #eeeef7;
 }
 
+.whiteBG{
+  background-color: white;
+}
+
 .featuredTitle {
   font-size: 20px;
 }
