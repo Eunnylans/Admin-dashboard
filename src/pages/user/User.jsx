@@ -7,6 +7,7 @@ import {
   Publish,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import image from "../../Assets/Abies.jpg"
 import "./user.css";
 
 export default function User() {
@@ -21,11 +22,11 @@ export default function User() {
       <div className="userContainer">
         <div className="userShow">
           <div className="userShowTop">
-            <img
-              className="userShowImage"
-              src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/66654716_10211425723998036_9052981278244077568_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=lA-j-WcpE7gAX-uWl1L&_nc_ht=scontent-frt3-1.xx&oh=00_AT-ehXlwCp54_WVuPst6ZFwSrFojRs8CW-tCiTD05EkYYQ&oe=629823CD"
-              alt=""
-            />
+          <img
+          src={image}
+          alt="Eunice"
+          className="userShowImage"
+        />
             <div className="userShowTopTile">
               <span className="userShowTopUsername">Eunice Igbinedion</span>
               <span className="userShowTopUserTitle">Web Developer</span>
@@ -112,11 +113,11 @@ export default function User() {
             </div>
             <div className="userUpdateRight">
               <div className="userUpdateUpload">
-                <img
-                  className="userUpdateImage"
-                  src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/66654716_10211425723998036_9052981278244077568_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=lA-j-WcpE7gAX-uWl1L&_nc_ht=scontent-frt3-1.xx&oh=00_AT-ehXlwCp54_WVuPst6ZFwSrFojRs8CW-tCiTD05EkYYQ&oe=629823CD"
-                  alt=""
-                />
+              <img
+              src={image}
+              alt="Eunice"
+              className="userUpdateImage"
+            />
                 <label htmlFor="file">
                   <Publish className="userUpdateIcon" />
                 </label>

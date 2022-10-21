@@ -1,3 +1,5 @@
+import image from "../../Admin-Dashboard/src/Assets/Abies.jpg";
+
 export const UserData = [
   {
     name: "Jan",
@@ -68,8 +70,7 @@ export const userRows = [
   {
     id: 1,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -77,8 +78,7 @@ export const userRows = [
   {
     id: 2,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -86,8 +86,7 @@ export const userRows = [
   {
     id: 3,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -95,8 +94,7 @@ export const userRows = [
   {
     id: 4,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -104,8 +102,7 @@ export const userRows = [
   {
     id: 5,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -113,8 +110,7 @@ export const userRows = [
   {
     id: 6,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -122,8 +118,7 @@ export const userRows = [
   {
     id: 7,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -131,8 +126,7 @@ export const userRows = [
   {
     id: 8,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -140,8 +134,7 @@ export const userRows = [
   {
     id: 9,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
@@ -149,8 +142,7 @@ export const userRows = [
   {
     id: 10,
     username: "Eunnylans",
-    avatar:
-      "https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/185872471_10215171635523483_1904449185798158987_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=22iC3fjuxHcAX8h4mmr&_nc_oc=AQl1yBTscTeHFy9DaPxmrzKRrfuk4ksstIaEa8_Sd1DNpjFux_FFIsbXFkUifYTDznM&_nc_ht=scontent-frt3-1.xx&oh=00_AT8zS2rrL6N7YCUuj6zxkhPs1psn2a32coAibkMTDeiFLQ&oe=629326C2",
+    avatar: image,
     email: "eigbinedion@yahoo.com",
     status: "active",
     transaction: "$120.00",
